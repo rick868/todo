@@ -1,0 +1,50 @@
+*
+*::after,
+*::before {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(146, 146, 144);
+  color: white;
+  overflow: hidden;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.todo-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+.todo-input-item  input{
+  padding:0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.2rem;
+  gap: 2rem;
+}
+.todo-input-item button{
+  padding: 0px 15px;
+  font-size: 1.2rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.todo-item-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 4%;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
