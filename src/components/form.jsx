@@ -3,10 +3,12 @@ function Form() {
         <div className="todo-container">
         <div className="todo-input">
           <div className='todo-input-item'>
-            <input type="text" placeholder='Title...' />
+            <label>Task</label>
+            <input type="text" placeholder='New Task' />
           </div>
           <div className='todo-input-item'>
-            <input type="text" placeholder='Description...' />
+            <label>Description</label>
+            <input type="text" placeholder='Description....' />
           </div>
           <div className='todo-input-item'>
             <button type='button' className='submit-btn'>Add</button>

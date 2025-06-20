@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(146, 146, 144);
+  background-color: #1f1e1e;
   color: white;
   overflow: hidden;
 }
@@ -15,36 +15,34 @@ h1{
   text-align: center;
   margin-top: 20px;
 }
+.todo-container{
+  background-color: #353434;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 .todo-input{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  gap: 5px;
+  border-bottom: 1px solid #666565;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
-.todo-input-item  input{
-  padding:0px 15px;
+
+.todo-input-item{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size:1.2rem;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
 }
-.todo-input-item button{
-  padding: 0px 15px;
-  font-size: 1.2rem;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.todo-item-title{
-  font-size: 1.2rem;
+
+.todo-input-item label{
   font-weight: bold;
-  padding: 4%;
-  margin: auto;
-  color: rgb(0, 0, 0);
-  width: fit-content;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 10px;
 }
