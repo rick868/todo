@@ -46,3 +46,71 @@ h1{
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.todo-input-item input{
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: rgb(39, 36, 36);
+}
+
+.submit-btn{
+  background-color: rgb(58, 73, 206);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background-color: rgb(7, 23, 160);
+  color: white;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list-item{
+  background-color: rgb(46, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-list-item h3{
+  font-size: 1.5rem;
+  color: rgb(64, 64, 230);
+  margin: 0;
+  font-weight: bold;
+}
+
+.todo-list-item p{
+  font-size: 1.1rem;
+  color: rgb(230, 225, 225);
+  margin-top: 8px;
+}
+
+.delete-btn{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover{
+  background-color: rgb(200, 0, 0);
+  color: rgb(14, 13, 13);
+}
